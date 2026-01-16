@@ -4,7 +4,7 @@
 
 ## 项目介绍
 
-本项目借鉴了 [bmadcode/BMAD-METHOD](https://github.com/bmadcode/BMAD-METHOD) 的复利工程思路，适配 Droid 并精简了提示词（上下文控制很重要）。
+本项目借鉴了 [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) 的复利工程思路，适配 Droid 并精简了提示词（上下文控制很重要）。
 
 **核心理念很简单：**
 - 第一次做某类任务 → 探索、学习、记录
@@ -77,6 +77,30 @@ Plan → Work → Review → Compound
 | `/triage` | 问题分类 |
 | `/resolve-parallel` | 并行解决 |
 | `/changelog` | 变更日志 |
+
+## 使用示例
+
+以「添加用户登录功能」为例，演示完整工作流：
+
+```
+1. 创建计划
+   /workflows-plan 添加用户登录功能
+   → AI 分析需求，生成 plans/添加用户登录功能.md
+
+2. 执行计划
+   /workflows-work plans/添加用户登录功能.md
+   → AI 按计划逐步实施代码
+
+3. 代码审查
+   /workflows-review src/auth/
+   → AI 审查代码质量，提出改进建议
+
+4. 记录学习
+   /workflows-compound
+   → AI 总结本次经验，更新知识库
+```
+
+下次遇到类似任务时，AI 会自动应用积累的经验，效率更高。
 
 ---
 
