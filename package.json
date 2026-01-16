@@ -1,0 +1,20 @@
+{
+  "name": "oh-my-droid",
+  "version": "1.0.0",
+  "description": "Droid toolkit - 27 Droids, 21 Commands, 14 Skills",
+  "bin": {
+    "oh-my-droid": "./bin/cli.js"
+  },
+  "keywords": ["droid", "factory", "ai", "agent", "cli"],
+  "author": "EveryInc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EveryInc/oh-my-droid.git"
+  },
+  "files": [
+    "bin",
+    ".factory",
+    "AGENTS.md"
+  ]
+}

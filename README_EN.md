@@ -2,39 +2,36 @@
 
 Droid toolkit - 27 Droids, 21 Commands, 14 Skills.
 
-## Installation
+## Quick Install
 
 ```bash
-# Clone repository
+# Install to current project
+npx oh-my-droid
+
+# Install globally (~/.factory)
+npx oh-my-droid -g
+
+# Uninstall
+npx oh-my-droid -u
+```
+
+## Manual Install
+
+```bash
 git clone https://github.com/EveryInc/oh-my-droid.git
-
-# Copy to project directory (project-level)
 cp -r oh-my-droid/.factory /path/to/your/project/
-
-# Or copy to home directory (global)
-cp -r oh-my-droid/.factory ~/.factory
+cp oh-my-droid/AGENTS.md /path/to/your/project/
 ```
 
 ## Usage
 
-After installation, Droid automatically discovers and loads all components:
-
-- **Droids** - Available as subagents automatically
+After installation, Droid automatically discovers all components:
 - **Commands** - Invoke with `/command-name`
+- **Droids** - Available as subagents automatically
 - **Skills** - Droid invokes on demand
-
-### Common Commands
-
-```
-/lfg              # Full autonomous workflow
-/workflows:plan   # Create implementation plan
-/workflows:work   # Execute implementation
-/workflows:review # Code review
-```
 
 ## Documentation
 
-- [AGENTS.md](./AGENTS.md) - Detailed usage guide
 - [Factory Docs](https://docs.factory.ai)
 
 ---
