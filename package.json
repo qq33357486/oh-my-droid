@@ -1,7 +1,7 @@
 {
   "name": "oh-my-droid",
-  "version": "1.0.1",
-  "description": "Droid toolkit - 27 Droids, 21 Commands, 14 Skills",
+  "version": "2.0.0",
+  "description": "精简通用 Droid 工具集 - 10 Droids, 8 Commands",
   "bin": {
     "oh-my-droid": "./bin/cli.js"
   },

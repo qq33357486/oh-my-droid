@@ -1,38 +1,36 @@
 # Oh My Droid
 
-Droid toolkit - 27 Droids, 21 Commands, 14 Skills.
+Minimal universal Droid toolkit - 10 Droids, 8 Commands.
 
 ## Quick Install
 
 ```bash
-# Install to current project
-npx oh-my-droid
-
-# Install globally (~/.factory)
-npx oh-my-droid -g
-
-# Uninstall
-npx oh-my-droid -u
+npx oh-my-droid          # Install to current project
+npx oh-my-droid -g       # Install globally (~/.factory)
+npx oh-my-droid -u       # Uninstall
 ```
 
-## Manual Install
+## Core Workflow
 
-```bash
-git clone https://github.com/EveryInc/oh-my-droid.git
-cp -r oh-my-droid/.factory /path/to/your/project/
-cp oh-my-droid/AGENTS.md /path/to/your/project/
+```
+Plan → Work → Review → Compound
 ```
 
-## Usage
+| Command | Description |
+|---------|-------------|
+| `/workflows-plan` | Create plan |
+| `/workflows-work` | Execute plan |
+| `/workflows-review` | Code review |
+| `/workflows-compound` | Document learnings |
 
-After installation, Droid automatically discovers all components:
-- **Commands** - Invoke with `/command-name`
-- **Droids** - Available as subagents automatically
-- **Skills** - Droid invokes on demand
+## Auxiliary Commands
 
-## Documentation
-
-- [Factory Docs](https://docs.factory.ai)
+| Command | Description |
+|---------|-------------|
+| `/deepen-plan` | Enhance plan |
+| `/triage` | Issue triage |
+| `/resolve-parallel` | Parallel resolve |
+| `/changelog` | Generate changelog |
 
 ---
 

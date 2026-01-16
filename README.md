@@ -1,38 +1,36 @@
 # Oh My Droid
 
-Droid 工具集 - 27 个 Droids、21 个 Commands、14 个 Skills。
+精简通用 Droid 工具集 - 10 个 Droids、8 个 Commands。
 
 ## 一键安装
 
 ```bash
-# 安装到当前项目
-npx oh-my-droid
-
-# 安装到全局 (~/.factory)
-npx oh-my-droid -g
-
-# 卸载
-npx oh-my-droid -u
+npx oh-my-droid          # 安装到当前项目
+npx oh-my-droid -g       # 安装到全局 (~/.factory)
+npx oh-my-droid -u       # 卸载
 ```
 
-## 手动安装
+## 核心工作流
 
-```bash
-git clone https://github.com/EveryInc/oh-my-droid.git
-cp -r oh-my-droid/.factory /path/to/your/project/
-cp oh-my-droid/AGENTS.md /path/to/your/project/
+```
+Plan → Work → Review → Compound
 ```
 
-## 使用
+| 命令 | 说明 |
+|------|------|
+| `/workflows-plan` | 创建计划 |
+| `/workflows-work` | 执行计划 |
+| `/workflows-review` | 代码审查 |
+| `/workflows-compound` | 记录学习 |
 
-安装后 Droid 自动发现所有组件：
-- **Commands** - 输入 `/command-name` 调用
-- **Droids** - 自动作为子代理可用
-- **Skills** - Droid 按需调用
+## 辅助命令
 
-## 文档
-
-- [Factory 文档](https://docs.factory.ai)
+| 命令 | 说明 |
+|------|------|
+| `/deepen-plan` | 深化计划 |
+| `/triage` | 问题分类 |
+| `/resolve-parallel` | 并行解决 |
+| `/changelog` | 变更日志 |
 
 ---
 
