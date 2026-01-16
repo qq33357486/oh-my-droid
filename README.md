@@ -2,6 +2,16 @@
 
 精简通用 Droid 工具集 - 10 个 Droids、8 个 Commands。
 
+## 项目介绍
+
+本项目借鉴了 [bmadcode/BMAD-METHOD](https://github.com/bmadcode/BMAD-METHOD) 的复利工程思路，适配 Droid 并精简了提示词（上下文控制很重要）。
+
+**核心理念很简单：**
+- 第一次做某类任务 → 探索、学习、记录
+- 第二次做同类任务 → 有经验、更高效
+
+让 AI 的每一次工作都能积累成可复用的经验。
+
 ## 一键安装
 
 ```bash
