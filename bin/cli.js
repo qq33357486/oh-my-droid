@@ -83,13 +83,7 @@ function install() {
     }
   }
   
-  // Copy mcp.json if not exists
-  const mcpSrc = path.join(srcFactory, 'mcp.json');
-  const mcpDest = path.join(targetDir, 'mcp.json');
-  if (fs.existsSync(mcpSrc) && !fs.existsSync(mcpDest)) {
-    fs.copyFileSync(mcpSrc, mcpDest);
-    console.log('  Copied mcp.json');
-  }
+
   
   // Update AGENTS.md
   const agentsContent = getAgentsContent();

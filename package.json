@@ -1,6 +1,6 @@
 {
   "name": "oh-my-droid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Droid toolkit - 27 Droids, 21 Commands, 14 Skills",
   "bin": {
     "oh-my-droid": "./bin/cli.js"
