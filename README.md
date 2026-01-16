@@ -5,7 +5,7 @@
 ## 一键安装
 
 ```bash
-npx oh-my-droid          # 安装到当前项目
+npx oh-my-droid          # ⭐ 推荐：安装到当前项目（工具随项目走）
 npx oh-my-droid -g       # 安装到全局 (~/.factory)
 npx oh-my-droid -u       # 卸载
 ```
