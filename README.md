@@ -1,92 +1,42 @@
 # Oh My Droid
 
-> AI-powered development toolkit for Factory Droid - Compound Engineering tools that get smarter with every use.
+Droid 工具集 - 27 个 Droids、21 个 Commands、14 个 Skills。
 
-## What's Inside
+## 安装
 
-| Component | Count | Description |
-|-----------|-------|-------------|
-| **Droids** | 27 | Specialized AI subagents for code review, research, design, and workflow |
-| **Commands** | 21 | Custom slash commands for common workflows |
-| **Skills** | 14 | Reusable domain expertise and capabilities |
-| **MCP Servers** | 1 | Extended tool integrations |
+```bash
+# 克隆仓库
+git clone https://github.com/EveryInc/oh-my-droid.git
 
-## Quick Start
+# 复制到项目目录（项目级）
+cp -r oh-my-droid/.factory /path/to/your/project/
 
-1. Clone this repository into your project or home directory:
-   ```bash
-   git clone https://github.com/EveryInc/oh-my-droid.git
-   ```
+# 或复制到用户目录（全局）
+cp -r oh-my-droid/.factory ~/.factory
+```
 
-2. Copy the `.factory` directory to your project:
-   ```bash
-   cp -r oh-my-droid/.factory /path/to/your/project/
-   ```
+## 使用
 
-   Or for personal (global) use:
-   ```bash
-   cp -r oh-my-droid/.factory ~/.factory
-   ```
+安装后 Droid 会自动发现并加载所有组件：
 
-3. Start using the tools with Droid CLI!
+- **Droids** - 自动作为子代理可用
+- **Commands** - 输入 `/command-name` 调用
+- **Skills** - Droid 按需自动调用
 
-## Featured Components
+### 常用命令
 
-### Droids (Subagents)
+```
+/lfg              # 完整自动化工作流
+/workflows:plan   # 创建实施计划
+/workflows:work   # 执行实施
+/workflows:review # 代码审查
+```
 
-**Code Review:**
-- `kieran-rails-reviewer` - Rails code review with high quality bar
-- `kieran-python-reviewer` - Python code review specialist
-- `kieran-typescript-reviewer` - TypeScript/JavaScript reviewer
-- `security-sentinel` - Security vulnerability detection
-- `performance-oracle` - Performance optimization expert
+## 文档
 
-**Research:**
-- `best-practices-researcher` - Research best practices for any topic
-- `framework-docs-researcher` - Deep dive into framework documentation
-- `git-history-analyzer` - Analyze git history for patterns
+- [AGENTS.md](./AGENTS.md) - 详细使用说明
+- [Factory 文档](https://docs.factory.ai)
 
-**Workflow:**
-- `pr-comment-resolver` - Resolve PR comments automatically
-- `bug-reproduction-validator` - Validate bug reproductions
-- `lint` - Automated linting and fixing
+---
 
-### Commands
-
-- `/lfg` - Full autonomous engineering workflow (plan → work → review → test)
-- `/workflows:plan` - Create detailed implementation plan
-- `/workflows:work` - Execute implementation with best practices
-- `/workflows:review` - Comprehensive code review
-- `/resolve_todo_parallel` - Resolve all TODOs in parallel
-- `/test-browser` - Run browser automation tests
-
-### Skills
-
-- `gemini-imagegen` - Generate images with Google Gemini API
-- `agent-browser` - Browser automation for testing
-- `dhh-rails-style` - DHH's Rails conventions and patterns
-- `agent-native-architecture` - Design patterns for AI-native applications
-- `create-agent-skills` - Meta-skill for creating new skills
-
-## Philosophy
-
-**Compounding Engineering**: Each unit of engineering work should make subsequent units of work easier—not harder.
-
-1. **Plan** → Understand the change needed
-2. **Delegate** → Use AI tools effectively
-3. **Assess** → Verify changes work
-4. **Codify** → Document learnings
-
-## Documentation
-
-See [AGENTS.md](./AGENTS.md) for detailed usage instructions and development guidelines.
-
-## Resources
-
-- [Factory Documentation](https://docs.factory.ai)
-- [Custom Droids Guide](https://docs.factory.ai/cli/configuration/custom-droids)
-- [Skills Documentation](https://docs.factory.ai/cli/configuration/skills)
-
-## License
-
-MIT
+[English](./README_EN.md) | 中文
