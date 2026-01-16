@@ -1,4 +1,5 @@
 ---
+name: workflows-work
 description: 执行计划文件中的任务
 argument-hint: 计划文件路径
 ---

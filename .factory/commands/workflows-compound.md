@@ -1,4 +1,5 @@
 ---
+name: workflows-compound
 description: 记录解决的问题，积累知识
 argument-hint: 问题描述
 ---

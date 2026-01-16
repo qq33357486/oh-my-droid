@@ -1,4 +1,5 @@
 ---
+name: triage
 description: 问题分类和优先级排序
 argument-hint: 问题列表或目录
 ---

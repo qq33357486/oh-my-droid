@@ -1,4 +1,5 @@
 ---
+name: resolve-parallel
 description: 并行解决多个问题
 argument-hint: 问题列表或文件路径
 ---

@@ -1,4 +1,5 @@
 ---
+name: changelog
 description: 生成变更日志
 argument-hint: 版本号或日期范围
 ---

@@ -1,4 +1,5 @@
 ---
+name: workflows-review
 description: 使用多代理分析进行代码审查
 argument-hint: PR号、分支名或文件路径
 ---

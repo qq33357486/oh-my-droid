@@ -1,4 +1,5 @@
 ---
+name: workflows-plan
 description: 将功能描述转换为结构化的计划文档
 argument-hint: 功能描述
 ---

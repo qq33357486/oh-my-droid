@@ -1,4 +1,5 @@
 ---
+name: deepen-plan
 description: 深化计划，增加研究和细节
 argument-hint: 计划文件路径
 ---
