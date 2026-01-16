@@ -1,11 +1,17 @@
 {
   "name": "oh-my-droid",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "精简通用 Droid 工具集 - 10 Droids, 8 Commands",
   "bin": {
     "oh-my-droid": "./bin/cli.js"
   },
-  "keywords": ["droid", "factory", "ai", "agent", "cli"],
+  "keywords": [
+    "droid",
+    "factory",
+    "ai",
+    "agent",
+    "cli"
+  ],
   "author": "EveryInc",
   "license": "MIT",
   "repository": {
